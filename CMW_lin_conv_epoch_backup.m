@@ -1,11 +1,11 @@
 % Add EEGLAB to the MATLAB path
-addpath('/Users/stevenlieu/EEGLAB/eeglab2023.1');
+addpath('/Users//EEGLAB/eeglab2023.1');
 % Start EEGLAB without GUI
 eeglab nogui;
 % Define the file path for EEG data set
-setFilePath = '/Users/stevenlieu/EEGLAB/eeglab2023.1/data/LSL_validation/data_2006/';
+setFilePath = '/Users//EEGLAB/eeglab2023.1/data/LSL_validation/data_2006/';
 % Load the EEG data set
-EEG = pop_loadset('mark_test1.set', setFilePath);
+EEG = pop_loadset('.set', setFilePath);
 % % Specify the channel to analyze
 % chan2use = 'C21';
 % 
